@@ -1,1 +1,1 @@
-# .team-name-404-Not-Found-
+.team{name=404 Not Found;}
