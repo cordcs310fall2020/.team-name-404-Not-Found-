@@ -1,0 +1,63 @@
+body{
+	background-color: black;
+}
+
+h2{
+	color: #d37e57;
+}
+
+input,textarea{
+	background-color: rgb(124, 120, 120);
+}
+
+div{
+	border: 0px solid rgb(218, 139, 36);
+}
+
+.contact_form_label{
+	display: inline-block; 
+	width: 200px; 
+	font-weight: bold;
+	font-size: 1.1em;
+	color: rgb(233, 223, 79);
+}
+
+#submit{
+	background-color: green;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+}
+
+#submit:hover{
+	background-color: rgb(163, 11, 11);
+}
+
+hr{
+	float: left;
+	width: 30%;
+}
+
+
+#main-content{
+	padding: 50px;
+	border: 1px solid rgb(218, 139, 36);
+	/* margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10%; */
+	margin: 5% 25% 0% 25%;
+}
+
+#message{
+	height: 200px;
+	width: 100%;
+}
+
+.column{
+	float: left;
+	width: 50%;
+}
+
+.row::after{
+	clear: both;
+}

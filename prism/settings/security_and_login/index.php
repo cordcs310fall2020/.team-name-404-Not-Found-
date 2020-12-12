@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Settings</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<div id="header">
+		<h1>Account Settings</h1>
+	</div>
+
+	<div id = "content">
+		<div id ="nav">
+			<ul>
+				<a href="../general/index.php"><li>General</li></a>
+				<a href="index.php"><li>Security and Login</li></a>
+			</ul>
+		</div>
+		
+		<div id = "main-content">
+			<form id="form1" name="form1" enctype="multipart/form-data" action="" method="POST">
+				<h2>Security and Login Details</h2>
+				<hr><br/>
+				<h3>Change Password:</h3>
+
+				<div class="change_password">
+					<label id="textbox1label" class="contact_form_label" name="textbox1label" for="current_password">Current Password: </label>
+					<input type="text" id="current_password" name="current_password">
+					<br/><br/>
+
+					<label id="textbox2label" class="contact_form_label" name="textbox2label" for="new_password">New Password: </label>
+					<input type="text" id="new_password" name="new_password">
+					<br/><br/>
+
+					<label id="textbox3label" class="contact_form_label" name="textbox3label" for="email">Re-type New:</label>
+					<input type="text" id="email" name="retype_new_password">
+				</div>
+
+				<br/><br/>
+
+				<input type="submit" id="save" name="save" value="Save">
+				<input type="submit" id="cancel" name="cancel" value="Cancel">
+
+			</form>
+			
+		</div>
+	</div>
+
+</body>
+</html>
