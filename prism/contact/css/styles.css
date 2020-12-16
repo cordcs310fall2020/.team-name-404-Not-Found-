@@ -1,0 +1,126 @@
+body{
+	background-color: rgb(84, 94, 245);
+	 /* background-image: url("../img/a1.svg");  
+	 background-image: url("../img/a5.jpeg"); */
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: black;
+}
+
+h1{
+	color: #23ff1b;
+	text-align: center;
+	font-size: 35px;
+}
+
+h2{
+	color: #d37e57;
+}
+
+label{
+	color: yellow;
+}
+
+#checkboxlabelmessage{
+	font-size: 12px;
+	color: #43af11;
+}
+
+input,textarea, select{
+	background-color: rgb(255, 249, 249);
+}
+small{
+	color: #43af11;
+}
+
+span{
+	color:red;
+}
+
+input:invalid {
+	border: 2px solid rgb(0, 255, 179);
+	background-color: red;
+  }
+  
+input:valid {
+	border: 2px solid black;
+}
+
+
+
+
+div{
+	border: 0px solid rgb(218, 139, 36);
+}
+
+.tryitlabel{
+	color: red;
+}
+
+.contact_form_label{
+	display: inline-block; 
+	width: 200px; 
+	font-weight: bold;
+	font-size: 1.1em;
+}
+label.error{
+	color: red;
+	font-size: 2em;
+}
+
+#submit{
+	background-color: green;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+}
+
+#submit:hover{
+	background-color: rgb(163, 11, 11);
+}
+
+#radio2label{
+	color: rgb(204, 29, 29);
+}
+
+
+
+#main-content{
+	padding: 20px;
+	border: 5px solid rgb(218, 139, 36);
+	border-style: groove;
+	margin-left: 20%;
+	margin-right: 20%;
+	z-index: 100;
+}
+
+#message{
+	height: 100px;
+	width: 300px;
+}
+
+.column{
+	float: left;
+	width: 50%;
+}
+
+.row::after{
+	clear: both;
+}
+
+img:hover{
+	transform: scaleX(+1);
+	opacity: 0.5;
+	float: right;
+}
+img{
+	transform: scaleX(-1);
+}
+
+.image1{
+	height: 50px;
+}
+h3{
+	color: #43af11;
+}
